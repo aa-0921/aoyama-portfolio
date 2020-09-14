@@ -186,3 +186,11 @@ a {
   overflow: hidden;
   transition: 0.1s ease;
 }
+
+.eye {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 0;
+}

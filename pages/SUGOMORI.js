@@ -23,27 +23,27 @@ export default function Sugomori() {
       const posY = event.clientY - window.innerHeight / 2;
 
       squareTwo.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareThree.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareFour.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareFive.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareSix.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareSeven.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareEight.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareNine.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareTen.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareEleven.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       squareTwelve.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
     });
   }, []);
   useEffect(() => {
@@ -64,27 +64,27 @@ export default function Sugomori() {
       const posY = event.clientY - window.innerHeight / 2;
 
       square2Two.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Three.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Four.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Five.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Six.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Seven.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Eight.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Nine.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Ten.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Eleven.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
       square2Twelve.style.transform =
-        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+        "translate(" + posX * 0.01 + "%, " + posY * 0.01 + "%)";
     });
   }, []);
 
@@ -115,13 +115,20 @@ export default function Sugomori() {
               <div id="squareThree">
                 <div id="squareFour">
                   <div id="squareFive">
-                    <div id="squareSix">
-                      <div id="squareSeven">
-                        <div id="squareEight">
-                          <div id="squareNine">
-                            <div id="squareTen">
-                              <div id="squareEleven">
-                                <div id="squareTwelve"></div>
+                    <div>
+                      <div>
+                        <div className="eye"></div>
+                        <div className="eye"></div>
+                      </div>
+
+                      <div id="squareSix">
+                        <div id="squareSeven">
+                          <div id="squareEight">
+                            <div id="squareNine">
+                              <div id="squareTen">
+                                <div id="squareEleven">
+                                  <div id="squareTwelve"></div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -162,7 +169,6 @@ export default function Sugomori() {
           </div>
         </div>
       </section>
-      ;
     </Layout>
   );
 }
