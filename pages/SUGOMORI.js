@@ -104,7 +104,7 @@ export default function Sugomori() {
             <a>About</a>
           </Link>
           <Link href="/SUGOMORI">
-            <a>SUGOMORI</a>
+            <a>SUGOMORI(仮)</a>
           </Link>
         </div>
       </section>
