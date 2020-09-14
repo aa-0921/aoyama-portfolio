@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import { header } from "./header";
 
 export const siteTitle = "aoyama-portfolio-site";
 
@@ -16,7 +17,10 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}></header>
+      <header />
+      <header className={styles.header}>
+        <div className="header-flame"></div>headerどうしよう
+      </header>
       <main>{children}</main>
       {/* {!home && (
         <div className={styles.backToHome}>

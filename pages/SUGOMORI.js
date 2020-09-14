@@ -109,18 +109,13 @@ export default function Sugomori() {
         </div>
       </section>
       <section>
-        <div id="container">
-          <div id="squareOne">
-            <div id="squareTwo">
-              <div id="squareThree">
-                <div id="squareFour">
-                  <div id="squareFive">
-                    <div>
-                      <div>
-                        <div className="eye"></div>
-                        <div className="eye"></div>
-                      </div>
-
+        <div className="field">
+          <div id="container">
+            <div id="squareOne">
+              <div id="squareTwo">
+                <div id="squareThree">
+                  <div id="squareFour">
+                    <div id="squareFive">
                       <div id="squareSix">
                         <div id="squareSeven">
                           <div id="squareEight">
@@ -140,22 +135,21 @@ export default function Sugomori() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div id="container">
-          <div id="square2One">
-            <div id="square2Two">
-              <div id="square2Three">
-                <div id="square2Four">
-                  <div id="square2Five">
-                    <div id="square2Six">
-                      <div id="square2Seven">
-                        <div id="square2Eight">
-                          <div id="square2Nine">
-                            <div id="square2Ten">
-                              <div id="square2Eleven">
-                                <div id="square2Twelve"></div>
+
+          <div id="container2">
+            <div id="square2One">
+              <div id="square2Two">
+                <div id="square2Three">
+                  <div id="square2Four">
+                    <div id="square2Five">
+                      <div id="square2Six">
+                        <div id="square2Seven">
+                          <div id="square2Eight">
+                            <div id="square2Nine">
+                              <div id="square2Ten">
+                                <div id="square2Eleven">
+                                  <div id="square2Twelve"></div>
+                                </div>
                               </div>
                             </div>
                           </div>
