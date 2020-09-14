@@ -46,6 +46,48 @@ export default function Sugomori() {
         "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
     });
   }, []);
+  useEffect(() => {
+    const square2Two = document.getElementById("square2Two");
+    const square2Three = document.getElementById("square2Three");
+    const square2Four = document.getElementById("square2Four");
+    const square2Five = document.getElementById("square2Five");
+    const square2Six = document.getElementById("square2Six");
+    const square2Seven = document.getElementById("square2Seven");
+    const square2Eight = document.getElementById("square2Eight");
+    const square2Nine = document.getElementById("square2Nine");
+    const square2Ten = document.getElementById("square2Ten");
+    const square2Eleven = document.getElementById("square2Eleven");
+    const square2Twelve = document.getElementById("square2Twelve");
+
+    document.addEventListener("mousemove", (event) => {
+      const posX = event.clientX - window.innerWidth / 2;
+      const posY = event.clientY - window.innerHeight / 2;
+
+      square2Two.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Three.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Four.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Five.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Six.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Seven.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Eight.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Nine.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Ten.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Eleven.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+      square2Twelve.style.transform =
+        "translate(" + posX * 0.002 + "%, " + posY * 0.002 + "%)";
+    });
+  }, []);
+
   return (
     <Layout>
       <Head>
@@ -93,6 +135,34 @@ export default function Sugomori() {
           </div>
         </div>
       </section>
+      <section>
+        <div id="container">
+          <div id="square2One">
+            <div id="square2Two">
+              <div id="square2Three">
+                <div id="square2Four">
+                  <div id="square2Five">
+                    <div id="square2Six">
+                      <div id="square2Seven">
+                        <div id="square2Eight">
+                          <div id="square2Nine">
+                            <div id="square2Ten">
+                              <div id="square2Eleven">
+                                <div id="square2Twelve"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      ;
     </Layout>
   );
 }
