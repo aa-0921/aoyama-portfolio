@@ -19,14 +19,6 @@ export default function Home() {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>自己紹介？</h2>
         <ul className={utilStyles.list}></ul>
-        <div>
-          <Link href="/">
-            <a>About</a>
-          </Link>
-          <Link href="/SUGOMORI">
-            <a>SUGOMORI</a>
-          </Link>
-        </div>
       </section>
       <Title>styled.h1</Title>
     </Layout>

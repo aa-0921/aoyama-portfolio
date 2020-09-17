@@ -99,14 +99,6 @@ export default function Sugomori() {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>自己紹介？</h2>
         <ul className={utilStyles.list}></ul>
-        <div>
-          <Link href="/">
-            <a>About</a>
-          </Link>
-          <Link href="/SUGOMORI">
-            <a>SUGOMORI(仮)</a>
-          </Link>
-        </div>
       </section>
       <section>
         <div className="field">
