@@ -7,7 +7,7 @@ import Link from "next/link";
 export const siteTitle = "aoyama-portfolio-site";
 
 // <Layout home>とpropsが渡された場合、JSXを分岐
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <>
       <div>

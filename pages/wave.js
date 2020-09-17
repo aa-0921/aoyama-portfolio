@@ -3,6 +3,8 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import styled from "styled-components";
+import React from "react";
+import Wavify from "react-wavify";
 
 export default function Wave() {
   return (
@@ -19,12 +21,26 @@ export default function Wave() {
         <div className="wave -three"></div>
         <div className="title">under-wave</div>
       </div>
+      <Wavify
+        fill="#CBE7ED"
+        paused={false}
+        options={{
+          height: 120,
+          amplitude: 5,
+          speed: 0.45,
+          points: 4,
+        }}
+      />
+      <Wavify
+        fill="#CBE7ED"
+        paused={false}
+        options={{
+          height: 80,
+          amplitude: 3,
+          speed: 0.6,
+          points: 6,
+        }}
+      />
     </>
   );
 }
-
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;
