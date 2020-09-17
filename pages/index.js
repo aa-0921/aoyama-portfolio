@@ -8,7 +8,7 @@ import styled from "styled-components";
 export default function Home() {
   // console.log(allPostsData);
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>

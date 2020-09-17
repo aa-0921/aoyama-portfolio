@@ -174,9 +174,26 @@ body {
 
 /* ----reverse-wave--- */
 
-#__next > div.wave-band > div:nth-child(2) {
+div.wave-band > div:nth-child(1) {
+  position: absolute;
+  left: 0;
+}
+
+div.wave-band > div:nth-child(2) {
   transform: rotate(180deg);
-  margin-top: -20px;
+  margin-top: 140px;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+}
+
+#__next
+  > div.layout_container__2t4v2
+  > main
+  > div.wave-band
+  > div:nth-child(1)
+  > svg {
+  overflow: visible !important;
 }
 
 /* ----css-wave-------- */
