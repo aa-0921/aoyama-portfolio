@@ -41,14 +41,12 @@ export default function Wave() {
           points: 6,
         }}
       />
-      {/* <View style={styles.container}>
-            <AnimatedWave
-                sizeOvan={150}
-                // onPress={() => alert("Hello")}
-                colorOvan={'#bebebe'}
-                zoom={5}
-            />
-        </View> */}
+      <div className="css-wave-wrap">
+        <div className="css-wave wave1"></div>
+        <div className="css-wave wave2"></div>
+        <div className="css-wave wave3"></div>
+        <div className="css-wave wave4"></div>
+      </div>
     </>
   );
 }
