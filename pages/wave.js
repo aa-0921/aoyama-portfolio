@@ -11,15 +11,13 @@ export default function Wave() {
         <div className="wave -one"></div>
         <div className="wave -two"></div>
         <div className="wave -three"></div>
-
-        <div className="title">Capacities</div>
+        <div className="title">top-wave</div>
       </div>
       <div className="under-box">
         <div className="wave -one"></div>
         <div className="wave -two"></div>
         <div className="wave -three"></div>
-
-        <div className="title">Capacities</div>
+        <div className="title">under-wave</div>
       </div>
     </>
   );
