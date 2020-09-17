@@ -41,6 +41,14 @@ export default function Wave() {
           points: 6,
         }}
       />
+      {/* <View style={styles.container}>
+            <AnimatedWave
+                sizeOvan={150}
+                // onPress={() => alert("Hello")}
+                colorOvan={'#bebebe'}
+                zoom={5}
+            />
+        </View> */}
     </>
   );
 }
