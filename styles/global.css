@@ -20,7 +20,7 @@ body {
   position: absolute;
   top: 3%;
   left: 50%;
-  background: #005c87;
+  background: #6ac5d9;
   width: 500px;
   height: 500px;
   margin-left: -250px;
@@ -218,7 +218,7 @@ div.wave-band > div:nth-child(2) {
   height: 100%;
   background: url(/images/wave.png);
   background-size: 1000px 100px;
-  filter: invert(40%) sepia(26%) saturate(300%) hue-rotate(145deg)
+  filter: invert(40%) sepia(26%) saturate(300%) hue-rotate(165deg)
     brightness(105%) contrast(102%);
 }
 .css-wave-wrap > .css-wave.wave1 {
@@ -300,10 +300,18 @@ div.wave-band > div:nth-child(2) {
 
 .neu-box {
   border-radius: 50px;
-  background: #ffffff;
-  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ffffff;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   margin-bottom: 300px;
   margin-top: 300px;
   width: 200px;
   height: 300px;
+}
+
+/* ----header-wave--- */
+
+#__next > div.box > div.title > div > a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 100px;
 }

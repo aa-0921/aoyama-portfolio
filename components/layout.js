@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-// import { Header } from "./header";
+import { Header } from "./Header";
 
 export const siteTitle = "aoyama-portfolio-site";
 
@@ -10,17 +10,8 @@ export const siteTitle = "aoyama-portfolio-site";
 export default function Layout({ children }) {
   return (
     <>
-      <div>
-        <Link href="/">
-          <a>About</a>
-        </Link>
-        <Link href="/SUGOMORI">
-          <a>SUGOMORI</a>
-        </Link>
-        <Link href="/wave">
-          <a>wave</a>
-        </Link>
-      </div>
+      <Header />
+
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
@@ -29,7 +20,6 @@ export default function Layout({ children }) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        {/* <Header /> */}
 
         <main>{children}</main>
         {/* {!home && (
