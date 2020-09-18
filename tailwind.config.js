@@ -10,11 +10,15 @@
 //   variants: {},
 //   plugins: [],
 // }
+// module.exports = {
+//   purge: ["./components/**/*.jsx", "./pages/**/*.jsx"],
+//   theme: {
+//     extend: {},
+//   },
+//   variants: {},
+//   plugins: [],
+// };
+
 module.exports = {
-  purge: ["./components/**/*.jsx", "./pages/**/*.jsx"],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
+  plugins: ["tailwindcss", "postcss-preset-env"],
 };
