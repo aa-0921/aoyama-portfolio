@@ -315,3 +315,7 @@ div.wave-band > div:nth-child(2) {
   text-decoration: none;
   margin-bottom: 100px;
 }
+
+a.sugomori-image-wrap > img {
+  border: 1px solid #829cc1;
+}

@@ -6,6 +6,8 @@ import styled from "styled-components";
 import React from "react";
 import Wavify from "react-wavify";
 
+import { littleWave } from "../components/littleWave";
+
 export default function section() {
   return (
     <>
@@ -16,17 +18,14 @@ export default function section() {
 
         <div>
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="lg:text-center">
-              <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide">
-                TRANSACTIONS
-              </p>
+            {/* <div className="lg:text-center">
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                A better way to send money
+                SUGOMORI
               </h3>
               <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
                 JavaScript関連
               </p>
-            </div>
+            </div> */}
 
             <div className="mt-10">
               <ul className="">
@@ -34,14 +33,24 @@ export default function section() {
                   <div className="flex">
                     <div className="flex-shrink-0">〇〇</div>
                     <div className="ml-4">
-                      <h4 className="text-lg leading-6 font-medium text-gray-900">
-                        JavaScript関連
-                      </h4>
-                      <a href="https://sugomori.herokuapp.com/feed">
+                      <littleWave />
+                      <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                        SUGOMORI
+                      </h3>
+                      <a
+                        href="https://sugomori.herokuapp.com/feed"
+                        className="sugomori-image-wrap"
+                      >
                         <img src="/images/portfolio/sugomori_index.png" />
                       </a>
-                      <a href="https://sugomori.herokuapp.com/">
-                        <img src="/images/portfolio/sugomori_about.png" />
+                      <a
+                        href="https://sugomori.herokuapp.com/"
+                        className="mt-20"
+                      >
+                        <img
+                          src="/images/portfolio/sugomori_about.png"
+                          className="mt-2"
+                        />
                       </a>
 
                       <p className="mt-2 text-base leading-6 text-gray-500">
