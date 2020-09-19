@@ -318,4 +318,6 @@ div.wave-band > div:nth-child(2) {
 
 a.sugomori-image-wrap > img {
   border: 1px solid #dbece8;
+  max-width: initial !important;
+  width: 380px;
 }
