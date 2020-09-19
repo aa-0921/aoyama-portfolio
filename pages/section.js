@@ -6,7 +6,10 @@ import styled from "styled-components";
 import React from "react";
 import Wavify from "react-wavify";
 
-import { littleWave } from "../components/littleWave";
+// import { littleWave } from "../components/littleWave";
+// FontAwesomeIcon関連
+// import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
+// import { faChevronRight } from "@fornawesome/free-solid-svg-icons";
 
 export default function section() {
   return (
@@ -33,10 +36,16 @@ export default function section() {
                   <div className="flex">
                     <div className="flex-shrink-0">〇〇</div>
                     <div className="ml-4">
-                      <littleWave />
+                      {/* <littleWave /> */}
                       <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                         SUGOMORI
                       </h3>
+
+                      {/* <FontAwesomeIcon
+                        icon={faChevronRight}
+                        size="lg"
+                        color="black"
+                      /> */}
                       <a
                         href="https://sugomori.herokuapp.com/feed"
                         className="sugomori-image-wrap"
@@ -52,7 +61,12 @@ export default function section() {
                           className="mt-2"
                         />
                       </a>
-
+                      <h3 className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl sm:leading-10">
+                        アプリへのリンク↓
+                      </h3>
+                      <h1 className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-base sm:leading-10">
+                        （テストユーザーで単ログインができます）
+                      </h1>
                       <p className="mt-2 text-base leading-6 text-gray-500">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Maiores impedit perferendis suscipit eaque, iste
