@@ -37,6 +37,13 @@ export default function section() {
                       <h4 className="text-lg leading-6 font-medium text-gray-900">
                         JavaScript関連
                       </h4>
+                      <a href="https://sugomori.herokuapp.com/feed">
+                        <img src="/images/portfolio/sugomori_index.png" />
+                      </a>
+                      <a href="https://sugomori.herokuapp.com/">
+                        <img src="/images/portfolio/sugomori_about.png" />
+                      </a>
+
                       <p className="mt-2 text-base leading-6 text-gray-500">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Maiores impedit perferendis suscipit eaque, iste
