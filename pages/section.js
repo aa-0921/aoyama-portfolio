@@ -86,7 +86,7 @@ export default function section() {
                           </p>
                           <a
                             href="https://sugomori.herokuapp.com/"
-                            className="sugomori-image-wrap mt-2"
+                            className="sugomori-image-wrap mt-2 text-blue-700"
                           >
                             https://sugomori.herokuapp.com/
                           </a>
