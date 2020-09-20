@@ -18,6 +18,10 @@ body {
   top: 10%;
   padding-top: 20px;
 }
+
+.wave-band-wrap {
+  margin-top: -200px;
+}
 .wave {
   opacity: 0.4;
   position: absolute;
