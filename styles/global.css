@@ -321,3 +321,7 @@ a.sugomori-image-wrap > img {
   max-width: initial !important;
   width: 380px;
 }
+
+.head-animation {
+  transform: translateY(-100%);
+}
