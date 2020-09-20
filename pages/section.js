@@ -34,10 +34,9 @@ export default function section() {
               <ul className="">
                 <li>
                   <div className="flex">
-                    <div className="flex-shrink-0">〇〇</div>
                     <div className="ml-4">
                       {/* <littleWave /> */}
-                      <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                      <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
                         SUGOMORI
                       </h3>
 
@@ -49,7 +48,7 @@ export default function section() {
                       <div class="flex flex-row">
                         <div class="flex flex-col">
                           <a
-                            href="https://sugomori.herokuapp.com/feed"
+                            href="https://sugomori.herokuapp.com/"
                             className="sugomori-image-wrap"
                           >
                             <img src="/images/portfolio/sugomori_index.png" />
@@ -97,7 +96,6 @@ export default function section() {
                 </li>
                 <li className="mt-10 md:mt-0">
                   <div className="flex">
-                    <div className="flex-shrink-0">〇〇</div>
                     <div className="ml-4">
                       <h4 className="text-lg leading-6 font-medium text-gray-900">
                         Rails関連
@@ -112,7 +110,6 @@ export default function section() {
                 </li>
                 <li className="mt-10 md:mt-0">
                   <div className="flex">
-                    <div className="flex-shrink-0">〇〇</div>
                     <div className="ml-4">
                       <h4 className="text-lg leading-6 font-medium text-gray-900">
                         JavaScript
@@ -127,7 +124,6 @@ export default function section() {
                 </li>
                 <li className="mt-10 md:mt-0">
                   <div className="flex">
-                    <div className="flex-shrink-0">〇〇</div>
                     <div className="ml-4">
                       <h4 className="text-lg leading-6 font-medium text-gray-900">
                         JavaScript
