@@ -40,7 +40,7 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className={styles.header} id="header">
+    <header className="{styles.header} fixed" id="header">
       <div className="box">
         <div className="wave -one"></div>
         <div className="wave -two"></div>

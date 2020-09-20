@@ -7,8 +7,7 @@ body {
 .box {
   width: 900px;
   height: 300px;
-  border-radius: 5px;
-  box-shadow: 0 2px 30px rgba(black, 0.2);
+  border-radius: 3px;
   background: lighten(#f0f4c3, 10%);
   position: relative;
   overflow: hidden;
@@ -18,7 +17,7 @@ body {
 .wave {
   opacity: 0.4;
   position: absolute;
-  top: 3%;
+  top: -25%;
   left: 50%;
   background: #6ac5d9;
   width: 500px;
@@ -175,11 +174,18 @@ body {
 /* ----reverse-wave--- */
 
 div.wave-band > div:nth-child(1) {
-  position: absolute;
   left: 0;
 }
 
-div.wave-band > div:nth-child(2) {
+#__next
+  > div
+  > main
+  > div:nth-child(2)
+  > div
+  > div
+  > ul
+  > div
+  > div:nth-child(3) {
   transform: rotate(180deg);
   margin-top: 140px;
   width: 100vw;
@@ -187,13 +193,9 @@ div.wave-band > div:nth-child(2) {
   left: 0;
 }
 
-#__next
-  > div.layout_container__2t4v2
-  > main
-  > div.wave-band
-  > div:nth-child(1)
-  > svg {
+div.wave-band > div > svg {
   overflow: visible !important;
+  height: 20% !important;
 }
 
 /* ----css-wave-------- */
@@ -322,6 +324,9 @@ a.sugomori-image-wrap > img {
   width: 380px;
 }
 
+/* ----headerアニメーションーーーーー */
 .head-animation {
   transform: translateY(-100%);
+  transition-timing-function: ease;
+  transition: 1.3s;
 }

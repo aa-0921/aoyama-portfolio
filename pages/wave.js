@@ -34,7 +34,7 @@ export default function Wave() {
             fill="#CBE7ED"
             paused={false}
             options={{
-              height: 120,
+              height: 10,
               amplitude: 5,
               speed: 0.45,
               points: 4,
@@ -45,10 +45,10 @@ export default function Wave() {
             fill="#CBE7ED"
             paused={false}
             options={{
-              height: 80,
-              amplitude: 3,
+              height: 10,
+              amplitude: 5,
               speed: 0.6,
-              points: 6,
+              points: 4,
             }}
           />
         </div>
