@@ -5,6 +5,7 @@ import React from "react";
 import { Sugomori } from "../components/Sugomori";
 import { ToDoList } from "../components/ToDoList";
 import { WaveBand } from "../components/WaveBand";
+import { Top } from "./Top";
 
 // import { littleWave } from "../components/littleWave";
 // FontAwesomeIcon関連
@@ -18,6 +19,9 @@ export default function section() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
+        <Top />
+        <WaveBand />
+
         <div className="h-64"></div>
         <div className="h-64"></div>
         <div>

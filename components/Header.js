@@ -5,39 +5,39 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 
 export const Header = () => {
-  useEffect(() => {
-    (function () {
-      const headerTarget = document.getElementById("header"),
-        height = 56;
+  // useEffect(() => {
+  //   (function () {
+  //     const headerTarget = document.getElementById("header"),
+  //       height = 56;
 
-      let offset = 0,
-        lastPosition = 0,
-        ticking = false;
-      function onScroll(lastPosition) {
-        if (headerTarget != null) {
-          if (lastPosition > height) {
-            if (lastPosition > offset) {
-              headerTarget.classList.add("head-animation");
-            } else {
-              headerTarget.classList.remove("head-animation");
-            }
-            offset = lastPosition;
-          }
-        }
-      }
+  //     let offset = 0,
+  //       lastPosition = 0,
+  //       ticking = false;
+  //     function onScroll(lastPosition) {
+  //       if (headerTarget != null) {
+  //         if (lastPosition > height) {
+  //           if (lastPosition > offset) {
+  //             headerTarget.classList.add("head-animation");
+  //           } else {
+  //             headerTarget.classList.remove("head-animation");
+  //           }
+  //           offset = lastPosition;
+  //         }
+  //       }
+  //     }
 
-      window.addEventListener("scroll", function (e) {
-        lastPosition = window.scrollY;
-        if (!ticking) {
-          window.requestAnimationFrame(function () {
-            onScroll(lastPosition);
-            ticking = false;
-          });
-          ticking = true;
-        }
-      });
-    })();
-  }, []);
+  //     window.addEventListener("scroll", function (e) {
+  //       lastPosition = window.scrollY;
+  //       if (!ticking) {
+  //         window.requestAnimationFrame(function () {
+  //           onScroll(lastPosition);
+  //           ticking = false;
+  //         });
+  //         ticking = true;
+  //       }
+  //     });
+  //   })();
+  // }, []);
 
   return (
     <header className="{styles.header} fixed" id="header">

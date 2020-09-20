@@ -19,12 +19,19 @@ export default function Wave() {
           <div className="wave -three"></div>
           <div className="title">top-wave</div>
         </div>
-
-        <div className="under-box">
-          <div className="wave -one"></div>
-          <div className="wave -two"></div>
-          <div className="wave -three"></div>
-          <div className="title">under-wave</div>
+        <div className="relative">
+          <div className="under-box absolute">
+            <div className="wave -one"></div>
+            <div className="wave -two"></div>
+            <div className="wave -three"></div>
+            <div className="title">under-wave</div>
+          </div>
+          <div className="under-box under absolute">
+            <div className="wave -one"></div>
+            <div className="wave -two"></div>
+            <div className="wave -three"></div>
+            <div className="title">under-wave</div>
+          </div>
         </div>
 
         <div className="neu-box"></div>

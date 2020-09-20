@@ -10,7 +10,7 @@ export const siteTitle = "aoyama-portfolio-site";
 export default function Layout({ children }) {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <div className={styles.container}>
         <Head>

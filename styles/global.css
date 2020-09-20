@@ -6,7 +6,7 @@ body {
 /* ーーーtop-wave */
 .box {
   width: 900px;
-  height: 300px;
+  height: 900px;
   border-radius: 3px;
   background: lighten(#f0f4c3, 10%);
   position: relative;
@@ -14,14 +14,18 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
+.under {
+  top: 10%;
+  padding-top: 20px;
+}
 .wave {
   opacity: 0.4;
   position: absolute;
-  top: -25%;
+  top: 50%;
   left: 50%;
   background: #6ac5d9;
-  width: 500px;
-  height: 500px;
+  width: 420px;
+  height: 420px;
   margin-left: -250px;
   margin-top: -250px;
   transform-origin: 50% 48%;
@@ -29,14 +33,33 @@ body {
   animation: drift 3000ms infinite linear;
 }
 
-.wave.-three {
-  animation: drift 5000ms infinite linear;
-}
-
 .wave.-two {
   animation: drift 7000ms infinite linear;
   opacity: 0.1;
   background: yellow;
+  border-radius: 35%;
+  width: 420px;
+  height: 420px;
+}
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+  border-radius: 50%;
+}
+.wave.-four {
+  animation: drift 9000ms infinite linear;
+  border-radius: 40%;
+}
+.top-name {
+  position: absolute;
+  top: 28%;
+  left: 24%;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  font-size: 7rem;
+  color: white;
 }
 
 .box:after {
