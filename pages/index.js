@@ -31,6 +31,8 @@ export default function section() {
 
                 <Profile />
                 <Sugomori />
+                <div className="h-8"></div>
+
                 <ToDoList />
                 {/* <li className="mt-10 md:mt-0">
                   <div className="flex">

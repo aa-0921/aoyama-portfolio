@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { SiQiita } from "react-icons/si";
 import { FaGithubSquare } from "react-icons/fa";
+import { GoPrimitiveDot } from "react-icons/go";
 
 import { IconName } from "react-icons/si";
 export const Profile = () => {
@@ -102,15 +103,15 @@ export const Profile = () => {
                 <div className="h-4"></div>
                 【エンジニアとして活かしたい強み】
                 <br />
-                ◇コミュニケーション力
+                ◆コミュニケーション力
                 <br />
                 前職で営業経験があり、チームのリーダーも経験した為、メンバー内を合わせる為にコミュニケーションをとり、チーム力の向上にも努めました。
                 <br />
-                ◇継続力
+                ◆継続力
                 <br />
                 日々のプログラミング学習をTwitterにて記録し、学習内容を発信してきました。一日平均10時間以上の学習を継続しております。
                 <br />
-                ◇発信する姿勢
+                ◆発信する姿勢
                 <br />
                 学習内容をQiitaに投稿し、2020年9月現在で41件の記事を書きました。他にも、日々の学習の中で感じた事をTwitterで発信するように心がけていました。
               </p>
