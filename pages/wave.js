@@ -5,6 +5,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import React from "react";
 import Wavify from "react-wavify";
+import { TopWaveBand } from "../components/TopWaveBand";
 
 export default function Wave() {
   return (
