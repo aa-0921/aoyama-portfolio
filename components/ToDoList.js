@@ -13,8 +13,8 @@ export const ToDoList = () => {
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
             ToDoList
           </h3>
-          <div class="flex flex-row">
-            <div class="flex flex-col">
+          <div className="flex flex-row">
+            <div className="flex flex-col">
               <a
                 href="https://react-todo-list-pied.vercel.app/"
                 className="sugomori-image-wrap"
@@ -22,7 +22,7 @@ export const ToDoList = () => {
                 <img src="/images/portfolio/ToDoスクショ.png" />
               </a>
             </div>
-            <div class="flex flex-col ml-10">
+            <div className="flex flex-col ml-10">
               <h3 className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl sm:leading-10">
                 ←アプリへのリンク
               </h3>

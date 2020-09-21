@@ -93,6 +93,8 @@ export default function Sugomori() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <TopWaveBand />
+
       <section className={utilStyles.headingMd}>
         <p>SUGOMORI</p>
       </section>

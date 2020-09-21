@@ -13,6 +13,8 @@ export default function Wave() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
+        <TopWaveBand />
+
         <div className="box">
           <div className="wave -one"></div>
           <div className="wave -two"></div>

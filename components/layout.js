@@ -3,6 +3,8 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { Header } from "./Header";
+import { TopWave } from "./TopWave";
+import { Footer } from "./Footer";
 
 export const siteTitle = "aoyama-portfolio-site";
 
@@ -30,6 +32,8 @@ export default function Layout({ children }) {
         </div>
       )} */}
       </div>
+      <TopWave />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -13,8 +13,8 @@ export const Sugomori = () => {
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
             SUGOMORI
           </h3>
-          <div class="flex flex-row">
-            <div class="flex flex-col">
+          <div className="flex flex-row">
+            <div className="flex flex-col">
               <a
                 href="https://sugomori.herokuapp.com/"
                 className="sugomori-image-wrap"
@@ -28,7 +28,7 @@ export const Sugomori = () => {
                 <img src="/images/portfolio/sugomori_about.png" />
               </a>
             </div>
-            <div class="flex flex-col ml-10">
+            <div className="flex flex-col ml-10">
               <h3 className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl sm:leading-10">
                 ←アプリへのリンク
               </h3>

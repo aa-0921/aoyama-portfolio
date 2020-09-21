@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import React, { useEffect } from "react";
 
-export const WaveBand = () => {
+export const TopWave = () => {
   return (
     <div>
       <div className="css-wave-wrap">

@@ -82,6 +82,9 @@ body {
   z-index: 11;
   transform: translate3d(0, 0, 0);
 }
+.title > a {
+  margin: 0 10px;
+}
 
 .title {
   position: absolute;
@@ -89,13 +92,13 @@ body {
   top: 0;
   width: 100%;
   z-index: 1;
-
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: white;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
-  letter-spacing: 0.4em;
+
+  font-weight: 700;
+  letter-spacing: 0.1em;
   font-size: 24px;
   text-shadow: 0 1px 0 rgba(black, 0.1);
   text-indent: 0.3em;
@@ -203,23 +206,17 @@ body {
 div.wave-band > div:nth-child(1) {
   left: 0;
 }
-
-#__next
-  > div
-  > main
-  > div:nth-child(2)
-  > div
-  > div
-  > ul
-  > div
-  > div:nth-child(3) {
+div.wave-band-under {
   transform: rotate(180deg);
-  margin-top: 140px;
+  margin-top: -50px;
   width: 100vw;
   position: absolute;
   left: 0;
 }
 
+div.title > a {
+  color: white;
+}
 div.wave-band > div > svg {
   overflow: visible !important;
   height: 20% !important;
@@ -357,3 +354,9 @@ a.sugomori-image-wrap > img {
   transition-timing-function: ease;
   transition: 1.3s;
 }
+
+/* -----footer-wave------ */
+/* .footer-wave {
+  height: 400px !important;
+  width: 400px !important;
+} */

@@ -1,32 +1,70 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
-import styled from "styled-components";
-// export const Home = () => {
 
-export default function Home() {
-  // console.log(allPostsData);
+import React, { Profiler } from "react";
+import { Sugomori } from "../components/Sugomori";
+import { ToDoList } from "../components/ToDoList";
+import { TopWaveBand } from "../components/TopWaveBand";
+import { WaveBand } from "../components/WaveBand";
+
+import { Top } from "./Top";
+
+import { Profile } from "../components/Profile";
+
+export default function section() {
   return (
-    <Layout>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>portfolio-site</p>
-      </section>
-      {/* utilStylesからスタイルを二種類指定 */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>自己紹介？</h2>
-        <ul className={utilStyles.list}></ul>
-      </section>
-      <Title>styled.h1</Title>
-    </Layout>
+    <>
+      <Layout>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
+        <Top />
+        <TopWaveBand />
+
+        <div className="h-32"></div>
+
+        <div>
+          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mt-10">
+              <ul className="">
+                <WaveBand />
+
+                <Profile />
+                <Sugomori />
+                <ToDoList />
+                {/* <li className="mt-10 md:mt-0">
+                  <div className="flex">
+                    <div className="ml-4">
+                      <h4 className="text-lg leading-6 font-medium text-gray-900">
+                        JavaScript
+                      </h4>
+                      <p className="mt-2 text-base leading-6 text-gray-500">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Maiores impedit perferendis suscipit eaque, iste
+                        dolor cupiditate blanditiis ratione.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li className="mt-10 md:mt-0">
+                  <div className="flex">
+                    <div className="ml-4">
+                      <h4 className="text-lg leading-6 font-medium text-gray-900">
+                        JavaScript
+                      </h4>
+                      <p className="mt-2 text-base leading-6 text-gray-500">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Maiores impedit perferendis suscipit eaque, iste
+                        dolor cupiditate blanditiis ratione.
+                      </p>
+                    </div>
+                  </div>
+                </li> */}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </Layout>
+    </>
   );
 }
-
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;

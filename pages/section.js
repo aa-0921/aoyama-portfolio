@@ -4,13 +4,10 @@ import Layout, { siteTitle } from "../components/layout";
 import React from "react";
 import { Sugomori } from "../components/Sugomori";
 import { ToDoList } from "../components/ToDoList";
+import { TopWaveBand } from "../components/TopWaveBand";
 import { WaveBand } from "../components/WaveBand";
-import { Top } from "./Top";
 
-// import { littleWave } from "../components/littleWave";
-// FontAwesomeIcon関連
-// import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
-// import { faChevronRight } from "@fornawesome/free-solid-svg-icons";
+import { Top } from "./Top";
 
 export default function section() {
   return (
@@ -20,18 +17,19 @@ export default function section() {
           <title>{siteTitle}</title>
         </Head>
         <Top />
-        <WaveBand />
+        <TopWaveBand />
 
-        <div className="h-64"></div>
-        <div className="h-64"></div>
+        <div className="h-32"></div>
+
         <div>
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mt-10">
               <ul className="">
-                <Sugomori />
                 <WaveBand />
+
+                <Sugomori />
                 <ToDoList />
-                <li className="mt-10 md:mt-0">
+                {/* <li className="mt-10 md:mt-0">
                   <div className="flex">
                     <div className="ml-4">
                       <h4 className="text-lg leading-6 font-medium text-gray-900">
@@ -58,7 +56,7 @@ export default function section() {
                       </p>
                     </div>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
