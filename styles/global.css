@@ -360,3 +360,15 @@ a.sugomori-image-wrap > img {
   height: 400px !important;
   width: 400px !important;
 } */
+
+/* --twitter-icon--- */
+.twitter-icon {
+  background-color: #1e9deb;
+}
+
+.qiita-icon {
+  background-color: #55bf00;
+}
+.github-icon {
+  background-color: black;
+}
