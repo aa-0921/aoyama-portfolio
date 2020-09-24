@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
-
 import Wavify from "react-wavify";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export const TopWaveBand = () => {
   return (
@@ -17,16 +17,15 @@ export const TopWaveBand = () => {
         }}
       />
       <div className="title flex flex-row justify-center relative text-blue-400 ">
-        <Link href="/">
+        <AnchorLink href="#profile-target" offset="1">
           <a>PROFILE</a>
-        </Link>
-        <Link href="/SUGOMORI">
+        </AnchorLink>
+        <AnchorLink href="#sugomori-target">
           <a>SUGOMORI</a>
-        </Link>
-        <Link href="/wave">
-          <a>wave</a>
-        </Link>
-
+        </AnchorLink>
+        <AnchorLink href="#todo-target">
+          <a>ToDo</a>
+        </AnchorLink>
       </div>
       <div className="wave-band-under">
         <Wavify

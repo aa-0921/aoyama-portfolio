@@ -7,6 +7,7 @@ import React, { useEffect } from "react";
 export const Sugomori = () => {
   return (
     <li>
+      {/* id="sugomori-target" */}
       <div className="flex">
         <div className="ml-4">
           {/* <littleWave /> */}
