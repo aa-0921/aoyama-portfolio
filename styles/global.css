@@ -396,11 +396,8 @@ a.sugomori-image-wrap img {
 /* ----img-wave */
 .img-wave-div {
   display: inline-block;
-
   position: relative;
-
   cursor: pointer;
-
   overflow: hidden !important;
   box-shadow: 0 1px 3px rgba(black, 0.2);
   background: lighten(#f0f4c3, 10%);
@@ -410,12 +407,12 @@ a.sugomori-image-wrap img {
 .img-wave {
   opacity: 0.4;
   position: absolute;
-  bottom: 0%;
+  bottom: -25%;
   left: 0%;
   background: white;
-  width: 500px;
-  height: 500px;
-  margin-left: -80px;
+  width: 550px;
+  height: 550px;
+  margin-left: 10px;
   margin-bottom: -500px;
   transform-origin: 50% 48%;
   border-radius: 43%;
@@ -434,6 +431,6 @@ a.sugomori-image-wrap img {
     transform: rotate(0deg);
   }
   from {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
