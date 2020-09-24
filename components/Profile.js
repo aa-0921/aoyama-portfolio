@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+
 import { IconContext } from "react-icons";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { SiQiita } from "react-icons/si";
@@ -25,42 +24,41 @@ export const Profile = () => {
                 <h2 className="font-medium  my-4 text-lg">青山 有久都</h2>
                 <div className="flex flex-">
                   <h3>
-                   <a href="https://twitter.com/ao_uzuuzu" >
-                    <IconContext.Provider
-                      value={{
-                        size: "2rem",
-                        color: "white",
-                        className: "icon twitter-icon rounded-lg",
-                      }}
-                    >
-                      <AiOutlineTwitter />
-                    </IconContext.Provider>
+                    <a href="https://twitter.com/ao_uzuuzu">
+                      <IconContext.Provider
+                        value={{
+                          size: "2rem",
+                          color: "white",
+                          className: "icon twitter-icon rounded-lg",
+                        }}
+                      >
+                        <AiOutlineTwitter />
+                      </IconContext.Provider>
                     </a>
-                     <a href="https://qiita.com/_AoAo_" >
-                    <IconContext.Provider
-                      value={{
-                        size: "2rem",
-                        color: "white",
-                        className: "icon qiita-icon rounded-lg",
-                      }}
-                    >
-                      <SiQiita />
-                    </IconContext.Provider>
+                    <a href="https://qiita.com/_AoAo_">
+                      <IconContext.Provider
+                        value={{
+                          size: "2rem",
+                          color: "white",
+                          className: "icon qiita-icon rounded-lg",
+                        }}
+                      >
+                        <SiQiita />
+                      </IconContext.Provider>
                     </a>
-                     <a href="https://github.com/aa-0921" >
-                    <IconContext.Provider
-                      value={{
-                        size: "2rem",
-                        color: "white",
-                        className: "icon github-icon rounded-lg",
-                      }}
-                    >
-                      <FaGithubSquare />
-                    </IconContext.Provider>
+                    <a href="https://github.com/aa-0921">
+                      <IconContext.Provider
+                        value={{
+                          size: "2rem",
+                          color: "white",
+                          className: "icon github-icon rounded-lg",
+                        }}
+                      >
+                        <FaGithubSquare />
+                      </IconContext.Provider>
                     </a>
                   </h3>
                 </div>
-
               </div>
             </div>
             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">

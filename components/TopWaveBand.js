@@ -26,9 +26,7 @@ export const TopWaveBand = () => {
         <Link href="/wave">
           <a>wave</a>
         </Link>
-        <Link href="/section">
-          <a>section</a>
-        </Link>
+
       </div>
       <div className="wave-band-under">
         <Wavify
