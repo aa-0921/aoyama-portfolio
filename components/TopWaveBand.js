@@ -18,7 +18,7 @@ export const TopWaveBand = () => {
       />
       <div className="title flex flex-row justify-center relative text-blue-400 ">
         <Link href="/">
-          <a>Home</a>
+          <a>PROFILE</a>
         </Link>
         <Link href="/SUGOMORI">
           <a>SUGOMORI</a>

@@ -20,13 +20,12 @@ export const Profile = () => {
                   src="/images/profile-image-sketch-face.png"
                   className="rounded-full"
                 />
-
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                {/* <FontAwesomeIcon icon={faChevronRight} /> */}
                 <h2 className="font-medium  my-4 text-lg">青山 有久都</h2>
                 <div className="flex flex-">
                   <h3>
+                   <a href="https://twitter.com/ao_uzuuzu" >
                     <IconContext.Provider
                       value={{
                         size: "2rem",
@@ -36,6 +35,8 @@ export const Profile = () => {
                     >
                       <AiOutlineTwitter />
                     </IconContext.Provider>
+                    </a>
+                     <a href="https://qiita.com/_AoAo_" >
                     <IconContext.Provider
                       value={{
                         size: "2rem",
@@ -45,6 +46,8 @@ export const Profile = () => {
                     >
                       <SiQiita />
                     </IconContext.Provider>
+                    </a>
+                     <a href="https://github.com/aa-0921" >
                     <IconContext.Provider
                       value={{
                         size: "2rem",
@@ -54,14 +57,10 @@ export const Profile = () => {
                     >
                       <FaGithubSquare />
                     </IconContext.Provider>
+                    </a>
                   </h3>
                 </div>
 
-                {/* <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                <p className="text-base text-gray-600">
-                  SNSリンクか自己紹介 SNSリンクか自己紹介 SNSリンクか自己紹介
-                  SNSリンクか自己紹介
-                </p> */}
               </div>
             </div>
             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
