@@ -3,7 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 
 import React, { Profiler } from "react";
 import { Sugomori } from "../components/Sugomori";
-import { ToDoList } from "../components/ToDoList";
+import { ToDo } from "../components/ToDo";
 import { TopWaveBand } from "../components/TopWaveBand";
 import { WaveBand } from "../components/WaveBand";
 
@@ -31,35 +31,7 @@ export default function section() {
                 <Profile />
                 <Sugomori />
                 <div className="h-8"></div>
-                <ToDoList />
-                {/* <li className="mt-10 md:mt-0">
-                  <div className="flex">
-                    <div className="ml-4">
-                      <h4 className="text-lg leading-6 font-medium text-gray-900">
-                        JavaScript
-                      </h4>
-                      <p className="mt-2 text-base leading-6 text-gray-500">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis ratione.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li className="mt-10 md:mt-0">
-                  <div className="flex">
-                    <div className="ml-4">
-                      <h4 className="text-lg leading-6 font-medium text-gray-900">
-                        JavaScript
-                      </h4>
-                      <p className="mt-2 text-base leading-6 text-gray-500">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis ratione.
-                      </p>
-                    </div>
-                  </div>
-                </li> */}
+                <ToDo />
               </ul>
             </div>
           </div>

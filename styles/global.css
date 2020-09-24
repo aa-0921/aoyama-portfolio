@@ -342,7 +342,7 @@ div.wave-band > div > svg {
   margin-bottom: 100px;
 }
 
-a.sugomori-image-wrap > img {
+a.sugomori-image-wrap img {
   border: 1px solid #dbece8;
   max-width: initial !important;
   width: 380px;
@@ -396,14 +396,11 @@ a.sugomori-image-wrap > img {
 /* ----img-wave */
 .img-wave-div {
   display: inline-block;
-  width: 100px;
-  height: 61px;
+
   position: relative;
-  font-size: 20px;
+
   cursor: pointer;
-  padding: 0.8em 1em;
-  border: 3px solid #333;
-  border-radius: 10px;
+
   overflow: hidden !important;
   box-shadow: 0 1px 3px rgba(black, 0.2);
   background: lighten(#f0f4c3, 10%);
@@ -413,24 +410,23 @@ a.sugomori-image-wrap > img {
 .img-wave {
   opacity: 0.4;
   position: absolute;
-  bottom: 3%;
-  left: 50%;
-  background: blue;
-  width: 300px;
-  height: 300px;
-  margin-left: -150px;
-  margin-bottom: -301px;
+  bottom: 0%;
+  left: 0%;
+  background: white;
+  width: 500px;
+  height: 500px;
+  margin-left: -80px;
+  margin-bottom: -500px;
   transform-origin: 50% 48%;
   border-radius: 43%;
-
   transition-duration: 0.75s;
   transition-property: margin-bottom;
   transition-timing-function: ease;
 }
 
 .img-wave-div:hover .img-wave {
-  margin-bottom: -250px;
-  animation: rotate 2000ms infinite linear;
+  margin-bottom: -300px;
+  animation: rotate 8000ms infinite linear;
 }
 
 @keyframes rotate {

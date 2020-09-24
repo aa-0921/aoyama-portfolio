@@ -19,13 +19,20 @@ export const Sugomori = () => {
                 href="https://sugomori.herokuapp.com/"
                 className="sugomori-image-wrap"
               >
-                <img src="/images/portfolio/sugomori_index.png" />
+                <div className="img-wave-div">
+                  <span className="img-wave"></span>
+
+                  <img src="/images/portfolio/sugomori_index.png" />
+                </div>
               </a>
               <a
                 href="https://sugomori.herokuapp.com/"
                 className="sugomori-image-wrap mt-2"
               >
-                <img src="/images/portfolio/sugomori_about.png" />
+                <div className="img-wave-div">
+                  <span className="img-wave"></span>
+                  <img src="/images/portfolio/sugomori_about.png" />
+                </div>
               </a>
             </div>
             <div className="flex flex-col ml-10">

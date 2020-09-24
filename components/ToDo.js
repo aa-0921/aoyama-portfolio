@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import React, { useEffect } from "react";
 
-export const ToDoList = () => {
+export const ToDo = () => {
   return (
     <li>
       <div className="flex">
@@ -19,7 +19,10 @@ export const ToDoList = () => {
                 href="https://react-todo-list-pied.vercel.app/"
                 className="sugomori-image-wrap"
               >
-                <img src="/images/portfolio/ToDoスクショ.png" />
+                <div className="img-wave-div">
+                  <span className="img-wave"></span>
+                  <img src="/images/portfolio/ToDoスクショ.png" />
+                </div>
               </a>
             </div>
             <div className="flex flex-col ml-10">
