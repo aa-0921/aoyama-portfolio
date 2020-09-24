@@ -362,6 +362,9 @@ a.sugomori-image-wrap > img {
 } */
 
 /* --twitter-icon--- */
+.icon {
+  margin: 5px 0;
+}
 .twitter-icon {
   background-color: #1e9deb;
 }
@@ -371,4 +374,21 @@ a.sugomori-image-wrap > img {
 }
 .github-icon {
   background-color: black;
+}
+
+/* -------profile-text--- */
+.profile-text {
+  color: #324b4e;
+}
+
+.profile-title {
+  color: #364b45;
+}
+
+.portfolio-text {
+  color: #364b45;
+}
+
+.portfolio-subtext {
+  color: #95b0b4;
 }

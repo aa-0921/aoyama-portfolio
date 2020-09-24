@@ -29,28 +29,32 @@ export const Sugomori = () => {
               </a>
             </div>
             <div className="flex flex-col ml-10">
-              <h3 className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl sm:leading-10">
-                ←アプリへのリンク
-              </h3>
-              <h1 className="text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-base">
-                テストユーザーでログインできます。
-              </h1>
-              <p className="mt-2 text-base leading-6 text-gray-500">
-                [テストユーザー]
-              </p>
-              <p className="mt-2 text-base leading-6 text-gray-500">
-                email: example-1@example.com <br />
-                password: ababab
-              </p>
-              <p className="mt-2 text-base leading-6 text-gray-500">
-                アプリ名：SUGOMORI
-                <br />
-                家でできる好きなことや好きなものの写真をコメント付きで投稿できるアプリです。
-                <br />
-                コロナ禍において、何か社会に役立つものをつくれないかと思い作成しました。
-                <br />
-                「家で何しよう」と悩む機会が増える中で、「好きなもの」を共有できるアプリがあれば、家で過ごす事が有意義になるのではないかと思いました。
-              </p>
+              <div className="portfolio-text">
+                <h3 className="mt-2 text-xl leading-8 font-extrabold tracking-tight sm:text-xl sm:leading-10">
+                  ←アプリへのリンク
+                </h3>
+                <h1 className="text-xl leading-8 font-extrabold tracking-tight sm:text-base">
+                  テストユーザーでログインできます。
+                </h1>
+              </div>
+
+              <div className="portfolio-subtext">
+                <p className="mt-2 text-base leading-6 ">[テストユーザー]</p>
+                <p className="mt-2 text-base leading-6 ">
+                  email: example-1@example.com <br />
+                  password: ababab
+                </p>
+                <p className="mt-2 text-base leading-6 ">
+                  アプリ名：SUGOMORI
+                  <br />
+                  家でできる好きなことや好きなものの写真をコメント付きで投稿できるアプリです。
+                  <br />
+                  コロナ禍において、何か社会に役立つものをつくれないかと思い作成しました。
+                  <br />
+                  「家で何しよう」と悩む機会が増える中で、「好きなもの」を共有できるアプリがあれば、家で過ごす事が有意義になるのではないかと思いました。
+                </p>
+              </div>
+
               <a
                 href="https://sugomori.herokuapp.com/"
                 className="sugomori-image-wrap mt-2 text-blue-700"
