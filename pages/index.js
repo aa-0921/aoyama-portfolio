@@ -7,7 +7,7 @@ import { ToDo } from "../components/ToDo";
 import { TopWaveBand } from "../components/TopWaveBand";
 import { WaveBand } from "../components/WaveBand";
 
-import { Top } from "./Top";
+import { Top } from "../components/Top";
 
 import { Profile } from "../components/Profile";
 
