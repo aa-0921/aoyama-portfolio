@@ -278,6 +278,8 @@ div.wave-band > div > svg {
   animation-delay: -5s;
   position: absolute;
   bottom: 10px;
+  filter: invert(40%) sepia(26%) saturate(300%) hue-rotate(180deg)
+    brightness(105%) contrast(102%);
 }
 
 .css-wave-wrap.reverse > .css-wave.wave1 {
