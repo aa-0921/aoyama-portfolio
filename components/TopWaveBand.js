@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import Wavify from "react-wavify";
-// import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { HashLink as Link } from "react-router-hash-link";
 export const TopWaveBand = () => {
   return (
     <div className="wave-band-wrap absolute pb-20 w-screen left-0">
@@ -17,17 +17,15 @@ export const TopWaveBand = () => {
         }}
       />
       <div className="title flex flex-row justify-center relative text-blue-400 ">
-        {/* <AnchorLink href="#profile-target" offset="1"> */}
-        <a href="#profile-target">PROFILE</a>
-
-        <a>PROFILE</a>
-        {/* </AnchorLink> */}
-        {/* <AnchorLink href="#sugomori-target"> */}
-        <a>SUGOMORI</a>
-        {/* </AnchorLink> */}
-        {/* <AnchorLink href="#todo-target"> */}
-        <a>ToDo</a>
-        {/* </AnchorLink> */}
+        <AnchorLink href="#profile-target" offset="1">
+          <a>PROFILE</a>
+        </AnchorLink>
+        <AnchorLink href="#sugomori-target">
+          <a>SUGOMORI</a>
+        </AnchorLink>
+        <AnchorLink href="#todo-target">
+          <a>ToDo</a>
+        </AnchorLink>
       </div>
       <div className="wave-band-under">
         <Wavify

@@ -8,13 +8,15 @@ import { GoPrimitiveDot } from "react-icons/go";
 import { IconName } from "react-icons/si";
 import ScrollableAnchor from "react-scrollable-anchor";
 import { configureAnchors } from "react-scrollable-anchor";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 export const Profile = () => {
   configureAnchors({ offset: 1250, scrollDuration: 1000 });
   return (
     <section className="text-gray-700">
-      <ScrollableAnchor id={"profile-target"}>
-        <div className="target-div"></div>
-      </ScrollableAnchor>
+      {/* <ScrollableAnchor id={"profile-target"}> */}
+
+      <div className="target-div"></div>
+      {/* </ScrollableAnchor> */}
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className=" mx-auto">
           <div className="flex flex-col sm:flex-row mt-10">
