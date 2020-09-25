@@ -434,3 +434,9 @@ a.sugomori-image-wrap img {
     transform: rotate(-360deg);
   }
 }
+
+/* ----target-div---- */
+.target-div {
+  margin-top: -1100px;
+  position: absolute;
+}

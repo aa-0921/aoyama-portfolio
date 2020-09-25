@@ -1,15 +1,20 @@
-import React from "react";
-
+// import React from "react";
+import React, { Component } from "react";
 import { IconContext } from "react-icons";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { SiQiita } from "react-icons/si";
 import { FaGithubSquare } from "react-icons/fa";
 import { GoPrimitiveDot } from "react-icons/go";
-
 import { IconName } from "react-icons/si";
+import ScrollableAnchor from "react-scrollable-anchor";
+import { configureAnchors } from "react-scrollable-anchor";
 export const Profile = () => {
+  configureAnchors({ offset: 1250, scrollDuration: 1000 });
   return (
     <section className="text-gray-700">
+      <ScrollableAnchor id={"profile-target"}>
+        <div className="target-div"></div>
+      </ScrollableAnchor>
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className=" mx-auto">
           <div className="flex flex-col sm:flex-row mt-10">
@@ -98,7 +103,7 @@ export const Profile = () => {
                 <br />
                 ◆コミュニケーション力
                 <br />
-                前職で営業経験があり、チームのリーダーも経験した為、メンバー内を合わせる為にコミュニケーションをとり、チーム力の向上にも努めました。
+                前職で営業経験があり、チームのリーダーも経験した為、メンバー間でのコミュニケーションスキルも、活かせると考えています。
                 <br />
                 ◆継続力
                 <br />
@@ -106,7 +111,7 @@ export const Profile = () => {
                 <br />
                 ◆発信する姿勢
                 <br />
-                学習内容をQiitaに投稿し、2020年9月時点で41件の記事を書きました。他にも、日々の学習の中で感じた事をTwitterで発信するように心がけていました。
+                学習内容をQiitaに投稿し、2020年9月時点で41件の記事を書きました。他にも、日々の学習の中で感じた事をTwitterで発信するように心がけております。
               </p>
             </div>
           </div>
