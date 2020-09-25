@@ -248,7 +248,7 @@ div.wave-band > div > svg {
     brightness(105%) contrast(102%);
 }
 .css-wave-wrap > .css-wave.wave1 {
-  animation: animate 28s linear infinite;
+  animation: animate 5s linear infinite;
   z-index: 1000;
   opacity: 1;
   animation-delay: 0s;
@@ -274,7 +274,7 @@ div.wave-band > div > svg {
 .css-wave-wrap > .css-wave.wave4 {
   animation: animate 13s linear infinite;
   z-index: 997;
-  opacity: 0.7;
+  opacity: 0.2;
   animation-delay: -5s;
   position: absolute;
   bottom: 10px;
