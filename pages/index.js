@@ -21,7 +21,6 @@ export default function section() {
         <Top />
         <TopWaveBand />
         <div className="h-32"></div>
-
         <div>
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mt-10">

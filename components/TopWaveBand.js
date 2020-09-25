@@ -27,7 +27,7 @@ export const TopWaveBand = () => {
           <a>ToDo</a>
         </AnchorLink>
       </div>
-      <div className="wave-band-under">
+      {/* <div className="wave-band-under">
         <Wavify
           fill="#CBE7ED"
           paused={false}
@@ -38,7 +38,7 @@ export const TopWaveBand = () => {
             points: 6,
           }}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
