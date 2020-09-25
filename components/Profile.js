@@ -79,7 +79,7 @@ export const Profile = () => {
                 <div className="profile-text">
                   1990年9月生まれ / 30歳
                   <br />
-                  兵庫県出身で、現在は神奈川県に在住しております。
+                  兵庫県出身で、現在は神奈川県在住です。
                 </div>
                 <div className="h-6"></div>
                 <h2 className="profile-title mt-2 text-base leading-8 font-extrabold tracking-tight sm:text-3xl sm:leading-10 mb-4">

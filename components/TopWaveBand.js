@@ -18,13 +18,19 @@ export const TopWaveBand = () => {
       />
       <div className="title flex flex-row justify-center relative text-blue-400 ">
         <AnchorLink href="#profile-target" offset="1">
-          <a>PROFILE</a>
+          <div>
+            <a>PROFILE</a>
+          </div>
         </AnchorLink>
         <AnchorLink href="#sugomori-target">
-          <a>SUGOMORI</a>
+          <div>
+            <a>SUGOMORI</a>
+          </div>
         </AnchorLink>
         <AnchorLink href="#todo-target">
-          <a>ToDo</a>
+          <div>
+            <a>ToDo</a>
+          </div>
         </AnchorLink>
       </div>
       {/* <div className="wave-band-under">
