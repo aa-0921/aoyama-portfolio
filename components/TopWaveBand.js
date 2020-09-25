@@ -6,16 +6,6 @@ import { HashLink as Link } from "react-router-hash-link";
 export const TopWaveBand = () => {
   return (
     <div className="wave-band-wrap absolute pb-20 w-screen left-0">
-      <Wavify
-        fill="#CBE7ED"
-        paused={false}
-        options={{
-          height: 120,
-          amplitude: 5,
-          speed: 0.45,
-          points: 4,
-        }}
-      />
       <div className="title flex flex-row justify-center relative text-blue-400 ">
         <AnchorLink href="#profile-target" offset="1">
           <div>
@@ -33,18 +23,6 @@ export const TopWaveBand = () => {
           </div>
         </AnchorLink>
       </div>
-      {/* <div className="wave-band-under">
-        <Wavify
-          fill="#CBE7ED"
-          paused={false}
-          options={{
-            height: 80,
-            amplitude: 3,
-            speed: 0.6,
-            points: 6,
-          }}
-        />
-      </div> */}
     </div>
   );
 };
