@@ -22,7 +22,8 @@ export const Sugomori = () => {
                 <div className="img-wave-div">
                   <span className="img-wave"></span>
 
-                  <img src="/images/portfolio/sugomori_index.png" />
+                  <img src="/images/sugomori-main.gif" />
+                  {/* <img src="/images/portfolio/sugomori_index.png" /> */}
                 </div>
               </a>
               <a
@@ -31,7 +32,8 @@ export const Sugomori = () => {
               >
                 <div className="img-wave-div">
                   <span className="img-wave"></span>
-                  <img src="/images/portfolio/sugomori_about.png" />
+                  <img src="/images/sugomori-about.gif" />
+                  {/* <img src="/images/portfolio/sugomori_about.png" /> */}
                 </div>
               </a>
             </div>
