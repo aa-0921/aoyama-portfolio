@@ -21,7 +21,7 @@ export const ToDo = () => {
               >
                 <div className="img-wave-div">
                   <span className="img-wave"></span>
-                  <img src="/images/ToDo-app-example.gif" />
+                  <img src="/images/todo-app.gif" />
                   {/* <img src="/images/portfolio/ToDoスクショ.png" /> */}
                 </div>
               </a>
