@@ -23,6 +23,18 @@ export const TopWaveBand = () => {
           </div>
         </AnchorLink>
       </div>
+      {/* <div className="wave-band-under">
+        <Wavify
+          fill="#CBE7ED"
+          paused={false}
+          options={{
+            height: 80,
+            amplitude: 3,
+            speed: 0.6,
+            points: 6,
+          }}
+        />
+      </div> */}
     </div>
   );
 };

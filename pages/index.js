@@ -6,10 +6,9 @@ import { Sugomori } from "../components/Sugomori";
 import { ToDo } from "../components/ToDo";
 import { TopWaveBand } from "../components/TopWaveBand";
 import { WaveBand } from "../components/WaveBand";
-
 import { Top } from "../components/Top";
-
 import { Profile } from "../components/Profile";
+import { Qiita } from "../components/Qiita";
 
 export default function section() {
   return (
@@ -30,6 +29,7 @@ export default function section() {
                 <Sugomori />
                 <div className="h-8"></div>
                 <ToDo />
+                <Qiita />
               </ul>
             </div>
           </div>
