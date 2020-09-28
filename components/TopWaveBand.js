@@ -5,7 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HashLink as Link } from "react-router-hash-link";
 export const TopWaveBand = () => {
   return (
-    <div className="wave-band-wrap absolute pb-20 w-screen left-0">
+    <div className="wave-band-wrap absolute w-screen left-0">
       <div className="title flex flex-row justify-center relative text-blue-400 ">
         <AnchorLink href="#profile-target" offset="1">
           <div>
