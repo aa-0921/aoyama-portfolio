@@ -91,7 +91,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 99999;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: white;
