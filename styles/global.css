@@ -20,7 +20,7 @@ body {
 }
 
 .wave-band-wrap {
-  margin-top: -200px;
+  margin-top: 80px;
 }
 .wave {
   opacity: 0.4;
@@ -91,7 +91,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 999;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: white;
