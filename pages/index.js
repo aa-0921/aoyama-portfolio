@@ -33,9 +33,8 @@ export default function index() {
 
                 <div className="h-8"></div>
                 <ToDo />
-                <SkillBar />
-
                 <Qiita />
+                <SkillBar />
               </ul>
             </div>
           </div>
