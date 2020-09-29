@@ -12,7 +12,7 @@ import { NavHashLink as NavLink } from "react-router-hash-link";
 export const Profile = () => {
   configureAnchors({ offset: 1250, scrollDuration: 1000 });
   return (
-    <section className="text-gray-700 mt-10">
+    <section className="text-gray-700">
       {/* <ScrollableAnchor id={"profile-target"}> */}
       <div className="h-24"></div>
       <div className="target-div"></div>
