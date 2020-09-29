@@ -213,9 +213,8 @@ div.wave-band-under {
   position: absolute;
   left: 0;
 }
-
-div.title > a {
-  color: white;
+div.wave-band-wrap > div > a > div > a {
+  color: white !important;
 }
 div.wave-band > div > svg {
   overflow: visible !important;
@@ -443,6 +442,7 @@ a.sugomori-image-wrap img {
   position: absolute;
 }
 
+/* ------SkillBar-wave------- */
 .SkillBar-wave {
   opacity: 0.4;
   position: absolute;
@@ -459,4 +459,44 @@ a.sugomori-image-wrap img {
   transition-property: margin-bottom;
   transition-timing-function: ease;
   animation: rotate 8000ms infinite linear;
+}
+
+/* ------ant-progress-bar------- */
+.ant-progress-show-info .ant-progress-outer {
+  margin-right: calc(-2em - 8px);
+  padding-right: calc(2em + 8px);
+}
+.ant-progress-outer {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+.ant-progress-outer {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.ant-progress-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+}
+.ant-progress-success-bg,
+.ant-progress-bg {
+  position: relative;
+  background-color: #1890ff;
+  border-radius: 100px;
+  -webkit-transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
+}
+
+.top-margin {
+  margin-top: 3000px;
 }

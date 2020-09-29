@@ -12,8 +12,7 @@ export const siteTitle = "aoyama-portfolio-site";
 export default function Layout({ children }) {
   return (
     <>
-      {/* <Header /> */}
-
+      <div className="top-margin"></div>
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />

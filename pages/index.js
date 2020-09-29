@@ -18,7 +18,6 @@ export default function index() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <SkillBar />
 
         <Top />
         <TopWaveBand />
@@ -34,6 +33,8 @@ export default function index() {
 
                 <div className="h-8"></div>
                 <ToDo />
+                <SkillBar />
+
                 <Qiita />
               </ul>
             </div>
