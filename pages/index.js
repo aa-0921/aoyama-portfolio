@@ -30,15 +30,15 @@ export default function index() {
                 <WaveBand />
                 <Profile />
                 {/* <div className="h-16"></div> */}
-                <div className="mb-6"></div>
+                <div className="mb-10"></div>
                 <Sugomori />
-                <div className="mb-6"></div>
+                <div className="mb-10"></div>
                 <ToDo />
-                <div className="mb-6"></div>
+                <div className="mb-10"></div>
                 {/* <div className="h-16"></div> */}
                 <Qiita />
                 {/* <div className="h-16"></div> */}
-                <div className="mb-6"></div>
+                <div className="mb-10"></div>
                 <Skills />
                 {/* <div className="h-16"></div> */}
               </ul>
