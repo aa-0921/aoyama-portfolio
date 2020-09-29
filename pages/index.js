@@ -29,12 +29,18 @@ export default function index() {
               <ul className="">
                 <WaveBand />
                 <Profile />
-                <Sugomori />
+                <div className="h-16"></div>
 
-                <div className="h-8"></div>
+                <Sugomori />
+                <div className="h-16"></div>
                 <ToDo />
+                <div className="h-16"></div>
+
                 <Qiita />
+                <div className="h-16"></div>
+
                 <Skills />
+                <div className="h-16"></div>
               </ul>
             </div>
           </div>
