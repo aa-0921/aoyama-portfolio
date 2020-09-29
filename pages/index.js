@@ -28,6 +28,7 @@ export default function index() {
             <div className="mt-10">
               <ul className="">
                 <WaveBand />
+                <div className="mb-10"></div>
                 <Profile />
                 {/* <div className="h-16"></div> */}
                 <div className="mb-10"></div>
