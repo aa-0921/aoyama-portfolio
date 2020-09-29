@@ -14,7 +14,7 @@ export const Profile = () => {
   return (
     <section className="text-gray-700 mt-10">
       {/* <ScrollableAnchor id={"profile-target"}> */}
-
+      <div className="h-24"></div>
       <div className="target-div"></div>
       {/* </ScrollableAnchor> */}
       <div className="container px-5 py-24 mx-auto flex flex-col">
