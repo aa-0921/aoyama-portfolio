@@ -9,7 +9,7 @@ import { WaveBand } from "../components/WaveBand";
 import { Top } from "../components/Top";
 import { Profile } from "../components/Profile";
 import { Qiita } from "../components/Qiita";
-import { SkillBar } from "../components/SkillBar.js";
+import { Skills } from "../components/Skills";
 
 export default function index() {
   return (
@@ -34,7 +34,7 @@ export default function index() {
                 <div className="h-8"></div>
                 <ToDo />
                 <Qiita />
-                <SkillBar />
+                <Skills />
               </ul>
             </div>
           </div>

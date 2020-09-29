@@ -5,27 +5,13 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import { Progress } from "antd";
 
-export const SkillBar = () => {
+export const SkillBar = (props) => {
   return (
     <>
-      <li>
-        <div className="flex">
-          <div className="ml-4 w-full" id="todo-target">
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
-              Skills
-            </h3>
-
-            <div className="flex flex-col w-full">
-              <div className="antd-progress-wrap relative">
-                <p className="absolute text-white w-64 pl-4">SQL</p>
-                <Progress percent={80} status="active" />
-              </div>
-
-              <div className="flex flex-col ml-10"></div>
-            </div>
-          </div>
-        </div>
-      </li>
+      <div className="antd-progress-wrap relative">
+        <p className="absolute text-white w-64 pl-4 z-10">{props.skillName}</p>
+        <Progress percent={props.skillPer} status="active" />
+      </div>
 
       {/* <div className="flex">
         <div className="ml-4">
