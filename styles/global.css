@@ -442,3 +442,21 @@ a.sugomori-image-wrap img {
   margin-top: -1100px;
   position: absolute;
 }
+
+.SkillBar-wave {
+  opacity: 0.4;
+  position: absolute;
+  bottom: 1200%;
+  left: -100%;
+  background: white;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+  margin-bottom: -500px;
+  transform-origin: 50% 48%;
+  border-radius: 30%;
+  transition-duration: 0.75s;
+  transition-property: margin-bottom;
+  transition-timing-function: ease;
+  animation: rotate 8000ms infinite linear;
+}

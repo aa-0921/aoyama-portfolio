@@ -11,7 +11,7 @@ export const ToDo = () => {
         <div className="ml-4" id="todo-target">
           {/* <littleWave /> */}
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
-            ToDoList
+            ToDo
           </h3>
           <div className="flex flex-row">
             <div className="flex flex-col">

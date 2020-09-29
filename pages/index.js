@@ -9,16 +9,20 @@ import { WaveBand } from "../components/WaveBand";
 import { Top } from "../components/Top";
 import { Profile } from "../components/Profile";
 import { Qiita } from "../components/Qiita";
+import { SkillBar } from "../components/SkillBar.js";
 
-export default function section() {
+export default function index() {
   return (
     <>
       <Layout>
         <Head>
           <title>{siteTitle}</title>
         </Head>
+        <SkillBar />
+
         <Top />
         <TopWaveBand />
+
         <div className="h-32"></div>
         <div>
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,6 +31,7 @@ export default function section() {
                 <WaveBand />
                 <Profile />
                 <Sugomori />
+
                 <div className="h-8"></div>
                 <ToDo />
                 <Qiita />
