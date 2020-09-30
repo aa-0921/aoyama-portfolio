@@ -16,6 +16,8 @@
     "autoprefixer": "^10.0.0",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
     "js-base64": "^3.5.2",
     "next": "^9.5.3",
     "node-fetch": "^2.6.1",

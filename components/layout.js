@@ -20,6 +20,9 @@ export default function Layout({ children }) {
           <meta property="og:image" />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
+          <script src="jquery.js"></script>
+          <script src="jquery.ui.js"></script>
+          <script src="raindrops.js"></script>
         </Head>
 
         <main>{children}</main>

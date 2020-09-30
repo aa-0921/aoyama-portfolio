@@ -10,6 +10,7 @@ import { Top } from "../components/Top";
 import { Profile } from "../components/Profile";
 import { Qiita } from "../components/Qiita";
 import { Skills } from "../components/Skills";
+import { RainDrop } from "../components/RainDrop";
 
 export default function index() {
   return (
@@ -41,6 +42,7 @@ export default function index() {
                 <div className="mb-10"></div>
                 <Skills />
                 {/* <div className="h-16"></div> */}
+                <RainDrop />
               </ul>
             </div>
           </div>
