@@ -36,7 +36,7 @@ export const RainDrop = () => {
 
   return (
     <div onClick={handleToggle}>
-      <div>hogehoge</div>
+      <div>rainDropTest</div>
     </div>
   );
 };
