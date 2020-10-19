@@ -4,13 +4,15 @@ import Layout, { siteTitle } from "../components/layout";
 import React, { Profiler } from "react";
 import { Sugomori } from "../components/Sugomori";
 import { ToDo } from "../components/ToDo";
+import { PenguinGame } from "../components/PenguinGame";
+
 import { TopWaveBand } from "../components/TopWaveBand";
 import { WaveBand } from "../components/WaveBand";
 import { Top } from "../components/Top";
 import { Profile } from "../components/Profile";
 import { Qiita } from "../components/Qiita";
 import { Skills } from "../components/Skills";
-import { RainDrop } from "../components/RainDrop";
+// import { RainDrop } from "../components/RainDrop";
 
 export default function index() {
   return (
@@ -35,6 +37,7 @@ export default function index() {
                 <Sugomori />
                 <div className="mb-10"></div>
                 <ToDo />
+                <PenguinGame />
                 <div className="mb-10"></div>
                 {/* <div className="h-16"></div> */}
                 <Qiita />
@@ -42,7 +45,7 @@ export default function index() {
                 <div className="mb-10"></div>
                 <Skills />
                 {/* <div className="h-16"></div> */}
-                <RainDrop />
+                {/* <RainDrop /> */}
               </ul>
             </div>
           </div>
