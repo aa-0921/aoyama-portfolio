@@ -9,6 +9,10 @@ import Wavify from "react-wavify";
 export const Top = () => {
   return (
     <>
+      <div className="h-24"></div>
+      <div className="h-24"></div>
+      <div className="h-24"></div>
+
       <div className="box h-screen relative">
         <div className="wave -one"></div>
         <div className="wave -two"></div>

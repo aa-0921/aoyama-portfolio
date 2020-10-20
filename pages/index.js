@@ -37,6 +37,7 @@ export default function index() {
                 <Sugomori />
                 <div className="mb-10"></div>
                 <ToDo />
+                <div className="mb-10"></div>
                 <PenguinGame />
                 <div className="mb-10"></div>
                 {/* <div className="h-16"></div> */}

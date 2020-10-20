@@ -14,10 +14,10 @@ export const Profile = () => {
   return (
     <section className="text-gray-700">
       {/* <ScrollableAnchor id={"profile-target"}> */}
-      <div className="h-24"></div>
+      {/* <div className="h-24"></div> */}
       <div className="target-div"></div>
       {/* </ScrollableAnchor> */}
-      <div className="container px-5 py-24 mx-auto flex flex-col">
+      <div className="container px-5 pt-40 pb-24 mx-auto flex flex-col">
         <div className=" mx-auto">
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
