@@ -357,12 +357,6 @@ a.sugomori-image-wrap img {
   transition: 1.3s;
 }
 
-/* -----footer-wave------ */
-/* .footer-wave {
-  height: 400px !important;
-  width: 400px !important;
-} */
-
 /* --twitter-icon--- */
 .icon {
   margin: 5px 0;
@@ -470,10 +464,6 @@ a.sugomori-image-wrap img {
 div.antd-progress-wrap > div > div > div > div {
   height: 20px !important;
 }
-/*
-div.antd-progress-wrap {
-  width: 80vw;
-} */
 
 .ant-progress-status-active .ant-progress-bg::before {
   animation: ant-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite !important;
