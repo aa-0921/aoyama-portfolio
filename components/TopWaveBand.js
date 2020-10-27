@@ -19,7 +19,7 @@ export const TopWaveBand = () => {
         </AnchorLink>
         <AnchorLink href="#todo-target">
           <div>
-            <a>ToDo</a>
+            <a>OtherApps</a>
           </div>
         </AnchorLink>
       </div>
