@@ -17,7 +17,7 @@ export const GhibliGallery = () => {
               >
                 <div className="img-wave-div">
                   <span className="img-wave"></span>
-                  <img src="/images/ghibli.gif" />
+                  <img src="/images/GhibliGalllery.gif" />
                 </div>
               </a>
             </div>
