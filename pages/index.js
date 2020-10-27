@@ -5,6 +5,7 @@ import React, { Profiler } from "react";
 import { Sugomori } from "../components/Sugomori";
 import { ToDo } from "../components/ToDo";
 import { PenguinGame } from "../components/PenguinGame";
+import { GhibliGallery } from "../components/GhibliGallery";
 
 import { TopWaveBand } from "../components/TopWaveBand";
 import { WaveBand } from "../components/WaveBand";
@@ -40,12 +41,11 @@ export default function index() {
                 <div className="mb-10"></div>
                 <PenguinGame />
                 <div className="mb-10"></div>
-                {/* <div className="h-16"></div> */}
+                <GhibliGallery />
+                <div className="mb-10"></div>
                 <Qiita />
-                {/* <div className="h-16"></div> */}
                 <div className="mb-10"></div>
                 <Skills />
-                {/* <div className="h-16"></div> */}
                 {/* <RainDrop /> */}
               </ul>
             </div>

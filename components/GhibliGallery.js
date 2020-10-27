@@ -1,24 +1,23 @@
 import React, { useEffect } from "react";
 
-export const PenguinGame = () => {
+export const GhibliGallery = () => {
   return (
     <li>
       <div className="flex">
         <div className="ml-4" id="todo-target">
           {/* <littleWave /> */}
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 mb-4">
-            PenguinGame
+            GhibliGallery
           </h3>
           <div className="flex flex-row">
             <div className="flex flex-col">
               <a
-                href="https://penguin-game-delta.vercel.app/"
+                href="https://ghibli-picture.vercel.app/"
                 className="sugomori-image-wrap"
               >
                 <div className="img-wave-div">
                   <span className="img-wave"></span>
-                  <img src="/images/penguin-game.gif" />
-                  {/* <img src="/images/portfolio/ToDoスクショ.png" /> */}
+                  <img src="/images/ghibli.gif" />
                 </div>
               </a>
             </div>
@@ -28,18 +27,16 @@ export const PenguinGame = () => {
               </h3>
               <div className="portfolio-subtext">
                 <p className="mt-2 text-base leading-6 ">
-                  JavaScript学習の為に、バイクゲームのコードを参考にペンギンが飛び跳ねるゲームを作成しました。
+                  JavaScript学習の為、Sliderのライブラリを複数組み合わせて活用し、最近提供が開始されたジブリの場面写真のギャラリーを作成しました。
                   <br />
-                  ゲームオーバーまでの時間を記録し、表示するように機能を付け足しました。
-                  <br />
-                  JQuery-Snowfallを使って雪を降らせました。
+                  JSでimgタグの表示を制御している部分などがあり、ライブラリを組み合わせることは想定していたよりも難しかったです。。
                 </p>
               </div>
               <a
-                href="https://penguin-game-delta.vercel.app/"
+                href="https://ghibli-picture.vercel.app/"
                 className="sugomori-image-wrap mt-2 text-blue-700"
               >
-                https://penguin-game-delta.vercel.app/
+                https://ghibli-picture.vercel.app/
               </a>
             </div>
           </div>
