@@ -28,7 +28,7 @@ export const Profile = () => {
                 />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                <h2 className="font-medium  my-4 text-lg">青山 有久都</h2>
+                <h2 className="font-medium  my-4 text-lg">Aoyama</h2>
                 <div className="flex flex-">
                   <h3>
                     <a href="https://twitter.com/ao_uzuuzu">
